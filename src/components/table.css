@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap'");
+table {
+  font-family: "Edu SA Beginner", cursive;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #e8ffce;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #94add7;
+}
+
+table tr:hover {
+  background-color: #94add7;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #e8ffce;
+  color: #7c73c0;
+}
+input:checked {
+  display: inline-block;
+  background-color: hsl(0, 0%, 40%);
+  border-color: hsl(0, 0%, 40%);
+}
+.checkbox {
+  width: 100%;
+  color: #7c73c0;
+}
+.checkbox,
+.checkbox-content {
+  padding: 1rem;
+  font-family: "Edu SA Beginner", cursive;
+  display: -webkit-inline-box;
+  font-size: 1.3rem;
+  background-color: #e8ffce;
+  font-weight: 200;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
